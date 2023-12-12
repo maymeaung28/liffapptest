@@ -20,7 +20,8 @@ const getLineData = () => {
     console.log("this is getLineData function");
     liff
         .init({
-            liffId: import.meta.env.VITE_LIFF_ID,
+            // liffId: import.meta.env.VITE_LIFF_ID,
+            liffId: "2001790108-Q8yBJvRm",
             withLoginOnExternalBrowser: true,
         })
         .then(() => {
