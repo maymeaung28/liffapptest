@@ -77,7 +77,6 @@ def start1():
     return rep.json()
 
 
-
 @app.get("/token")
 def get_token(request: Request):
     print("=====================type(request)========================")
