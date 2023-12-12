@@ -44,7 +44,7 @@ const getLineData = () => {
 
         })
         .catch((e) => {
-            message.value = "LIFF init failed.";
+            message.value = "LIFF init failed（涙）";
             error.value = `${e}`;
         });
     }
